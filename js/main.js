@@ -1,3 +1,5 @@
+alert("Bienvenido al simulador de prestamos, por favor ingrese los datos que solicitamos a continuación")
+
 let edadIngresada = parseInt(prompt("Ingrese su edad"));
 while(edadIngresada < 18)
         edadIngresada = prompt("Edad invalida, ingrese su edad");
@@ -32,7 +34,7 @@ function sumar(a, b){
     return suma;
 }
 console.log("Usted solicito " + a)
-console.log("Monto a devolver " + (a * 1.8) + " en " + ingreseCuotas + " cuotas de: ")
+console.log("Monto a devolver " +"$" + (a * 1.8) + " en " + ingreseCuotas + " cuotas de: ")
 console.log(sumar (a, 1.8) / ingreseCuotas);
 
 

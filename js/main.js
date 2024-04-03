@@ -31,7 +31,7 @@ class usuario{
     this.C_edad = edadIngresada;
     this.D_sexo = sexoIngresado;
     this.F_dni = dniIngresado;
-    this.G_cuit = cuilIngresado;   }
+    this.G_cuil = cuilIngresado;   }
 
 };
 
@@ -40,7 +40,7 @@ function saludar(nombreIngresado, apellidoIngresado){
 }
 saludar(nombreIngresado, apellidoIngresado);
 
-const usuario1 = new usuario(nombreIngresado, apellidoIngresado, edadIngresada, sexoIngresado, dniIngresado, cuitIngresado);
+const usuario1 = new usuario(nombreIngresado, apellidoIngresado, edadIngresada, sexoIngresado, dniIngresado, cuilIngresado);
 console.log(usuario1);
 
    // Funciones con retorno

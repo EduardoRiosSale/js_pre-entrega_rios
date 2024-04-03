@@ -112,7 +112,7 @@ const prestamos = [
 ]
 
 
-let buscador = prompt("Mencione el tipo de prestamo: Personal / Prendario / Hipotecario / Comercial.")
+let buscador = prompt("Mencione el tipo de prestamo: Personal / Prendario / Hipotecario / Comercial.".toLowerCase())
 
 const prestamoEncontrados = prestamos.find((prestamo) => prestamo.tipo === buscador)
 console.log(prestamoEncontrados)
